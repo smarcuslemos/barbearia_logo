@@ -17,7 +17,7 @@
 }
 
 .price_photo_container1 {
-    background-image: url(/assets/img/cabelo.jpg);
+    background-image: url(./assets/img/cabelo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 }
 
 .price_photo_container2 {
-    background-image: url(/assets/img/barba.jpg);
+    background-image: url(./assets/img/barba.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 .price_photo_container3 {
-    background-image: url(/assets/img/cabelo+barba.jpg);
+    background-image: url(./assets/img/cabelo+barba.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
