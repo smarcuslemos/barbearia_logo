@@ -29,6 +29,7 @@
     z-index: 4;
 }
 
+
 .presentation_area {
     grid-area: presentation_area;
     background-image: url(./assets/img/banner.jpg);
