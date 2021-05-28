@@ -68,3 +68,7 @@
 .anchor_link {
     top: 70px
 }
+
+html {
+    scroll-behavior: smooth;
+}
