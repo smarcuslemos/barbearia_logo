@@ -11,19 +11,19 @@
 }
 
 .photo_container1 {
-    background-image: url(/assets/img/corte1.jpg);
+    background-image: url(./assets/img/corte1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .photo_container2 {
-    background-image: url(/assets/img/corte2.jpg);
+    background-image: url(./assets/img/corte2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .photo_container3 {
-    background-image: url(/assets/img/corte3.jpg);
+    background-image: url(./assets/img/corte3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
