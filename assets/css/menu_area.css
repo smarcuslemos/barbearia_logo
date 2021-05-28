@@ -1,0 +1,30 @@
+.logo {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.menu_list {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.menu_link {
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    padding: 0.313rem 0.625rem;
+    transition: 500ms;
+    border-radius: 0.313rem;
+}
+
+.menu_link:hover {
+    background-color: #FBF3EF;
+    color: #262626;
+    padding: 5px 10px;   
+}

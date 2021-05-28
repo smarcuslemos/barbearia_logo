@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body_area {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "menu_area"
+    "presentation_area"
+    "content_area"
+    "footer_area";
+    grid-template-columns: auto;
+    grid-template-rows: 70px calc(100vh - 70px) auto auto auto auto auto auto auto auto;
+}
+
+.menu_area {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    grid-area: menu_area;
+    background-color: #0088E0;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+    z-index: 4;
+}
+
+.presentation_area {
+    grid-area: presentation_area;
+    background-image: url(/assets/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_area {
+    grid-area: content_area;
+    display: grid;
+    grid-template-areas: 
+    "about_area"
+    "photos_area"
+    "benefits_area"
+    "videos_area"
+    "prices_area"
+    "pin_area"
+    "contact_area";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.footer_area {
+    grid-area: footer_area;
+    background: #0088e0;
+    color: white;
+    padding: 60px 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor_link {
+    top: 70px
+}

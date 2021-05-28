@@ -1,0 +1,8 @@
+.player {
+    border-radius: 11px;
+}
+
+.videos_container {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,25 @@
+.presentation_area::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.title_subtitle {
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 3;
+}
+
+.presentation_title {
+    font-size: 70px;
+}
+
+.presentation_paragraph {
+    margin-top: 1rem;
+}

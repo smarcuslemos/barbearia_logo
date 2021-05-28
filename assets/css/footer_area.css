@@ -1,0 +1,43 @@
+.schedule {
+    border-spacing: 3px;
+}
+
+.schedule_social_media {
+    display: flex;
+    justify-content: space-between;
+    width: 18.75rem;
+}
+
+.schedule_band {
+    background-color: white;
+    color: #0088E0;
+    border-radius: 0.313rem;
+}
+
+.schedule_column {
+    padding: 4px;
+}
+
+.schedule_line:nth-child(even) {
+    font-weight: 900;
+}
+
+.social_media {
+    text-align: right;
+}
+
+.title_h5 {
+    margin-bottom: 1rem;
+}
+
+.fab {
+    font-size: 35px;
+    text-align: right;
+    margin-left: 10px;
+    color: white;
+}
+
+.legend {
+    text-align: center;
+    margin-top: 2.5rem;
+}

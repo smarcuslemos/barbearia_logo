@@ -1,0 +1,48 @@
+.title_h4 {
+    margin-bottom: 1rem;
+}
+
+.prices_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices_item {
+    width: 14rem;
+    border: 2px dashed white;
+    border-radius: 0.313rem;
+    text-align: center;
+    list-style: none;
+    padding: 1rem;
+}
+
+.price_photo_container1 {
+    background-image: url(/assets/img/cabelo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 15rem;
+    border-radius: 11px;
+}
+
+.price_photo_container2 {
+    background-image: url(/assets/img/barba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 15rem;
+    border-radius: 11px;
+}
+
+.price_photo_container3 {
+    background-image: url(/assets/img/cabelo+barba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 15rem;
+    border-radius: 11px;
+}
+

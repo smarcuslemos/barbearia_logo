@@ -1,0 +1,63 @@
+.contact_area_adjustment {
+    margin-top: 2rem;
+}
+
+.contact_container {
+    width: 33.75rem;
+}
+
+.contact_input {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 5px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid black;
+    background: #FBF3EF;
+    border-radius: 0.313rem;
+}
+
+.button {
+    margin-top: 2rem;
+    border: none;
+    width: 100%;
+    background: #0088E0;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
+    color: white;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.button:hover{
+    background: #0066aa;
+    transform: scale(1.1) rotate(1deg);
+}
+
+.mensagem {
+    display: block;
+    width: 100%;
+    background: #FBF3EF;
+    border-radius: 0.313rem;
+    margin-bottom: 2rem;
+}
+
+.radio_container {
+    border: none;
+}
+
+.title_legend {
+    margin-bottom: 1rem;
+}
+
+.radio_label {
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.legend_input {
+    margin-right: .3rem;
+}
+
+

@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    list-style: none;
+}
+
+.item:nth-child(even){
+    font-weight: 900;
+}

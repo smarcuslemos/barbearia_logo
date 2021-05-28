@@ -1,0 +1,47 @@
+.about_area {
+    grid-area: about_area;
+    background-color: #FBF3EF;
+    /*height: 300px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20%;
+}
+
+.photos_area {
+    grid-area: photos_area;
+    padding: 60px 20%;
+}
+
+.benefits_area {
+    padding: 60px 20%;
+    grid-area: benefits_area;
+    background-color: #FBF3EF;
+    color: black;
+}
+
+.videos_area {
+    grid-area: videos_area;
+    padding: 60px 20%;
+}
+
+.prices_area {
+    grid-area: prices_area;
+    padding: 60px 20%;
+    background-color: #E24C3B;
+    color: white;
+}
+
+.pin_area {
+    grid-area: pin_area;
+    padding: 60px 20%;
+}
+
+.contact_area {
+    grid-area: contact_area;
+    padding: 60px 20%;
+    background-color: #FBF3EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
